@@ -84,6 +84,15 @@ section h3 {
 .activity-card ul li {
   margin-bottom: 5px;
   font-size: 14px;
+  color: #333; /* Updated color for better readability */
+}
+
+.activity-card ul li.participant {
+  font-weight: bold;
+  color: #1a237e; /* Highlight participant names */
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #e8f0fe; /* Light background for emphasis */
 }
 
 .form-group {
